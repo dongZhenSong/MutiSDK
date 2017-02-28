@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182F82D41E65771100C73407 /* Vender.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F82D31E65771100C73407 /* Vender.m */; };
+		182F82D51E65771100C73407 /* Vender.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 182F82D21E65771100C73407 /* Vender.h */; };
+		182F82DC1E65781300C73407 /* Vender.h in Headers */ = {isa = PBXBuildFile; fileRef = 182F82D21E65771100C73407 /* Vender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		182F82CD1E65771100C73407 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				182F82D51E65771100C73407 /* Vender.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		182F82CF1E65771100C73407 /* libVender.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVender.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		182F82D21E65771100C73407 /* Vender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vender.h; sourceTree = "<group>"; };
+		182F82D31E65771100C73407 /* Vender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vender.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182F82CC1E65771100C73407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182F82C61E65771100C73407 = {
+			isa = PBXGroup;
+			children = (
+				182F82D11E65771100C73407 /* Vender */,
+				182F82D01E65771100C73407 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182F82D01E65771100C73407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182F82CF1E65771100C73407 /* libVender.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182F82D11E65771100C73407 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				182F82D21E65771100C73407 /* Vender.h */,
+				182F82D31E65771100C73407 /* Vender.m */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		182F82DB1E65780E00C73407 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182F82DC1E65781300C73407 /* Vender.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		182F82CE1E65771100C73407 /* Vender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182F82D81E65771100C73407 /* Build configuration list for PBXNativeTarget "Vender" */;
+			buildPhases = (
+				182F82CB1E65771100C73407 /* Sources */,
+				182F82CC1E65771100C73407 /* Frameworks */,
+				182F82CD1E65771100C73407 /* CopyFiles */,
+				182F82DB1E65780E00C73407 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vender;
+			productName = Vender;
+			productReference = 182F82CF1E65771100C73407 /* libVender.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182F82C71E65771100C73407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HeNanZhongDunYunAn;
+				TargetAttributes = {
+					182F82CE1E65771100C73407 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = X4P2NN873P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 182F82CA1E65771100C73407 /* Build configuration list for PBXProject "Vender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 182F82C61E65771100C73407;
+			productRefGroup = 182F82D01E65771100C73407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182F82CE1E65771100C73407 /* Vender */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182F82CB1E65771100C73407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182F82D41E65771100C73407 /* Vender.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		182F82D61E65771100C73407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		182F82D71E65771100C73407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182F82D91E65771100C73407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X4P2NN873P;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		182F82DA1E65771100C73407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X4P2NN873P;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182F82CA1E65771100C73407 /* Build configuration list for PBXProject "Vender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182F82D61E65771100C73407 /* Debug */,
+				182F82D71E65771100C73407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182F82D81E65771100C73407 /* Build configuration list for PBXNativeTarget "Vender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182F82D91E65771100C73407 /* Debug */,
+				182F82DA1E65771100C73407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182F82C71E65771100C73407 /* Project object */;
+}
